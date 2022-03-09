@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .about__info {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .about__content{
+        text-align: center;
+    }
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+    .gusto__box {
+        display: block;
+    }
+    .gusto__text {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .skill__container {
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+    }
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skill__container {
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 576px){
+    .skills__container {
+        justify-content: center;
+    }
+    .skill__content {
+        padding: 3.2rem 6.4rem;
+    }
+}
